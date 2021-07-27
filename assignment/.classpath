@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/jars/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/cucumber-html-0.2.2 - Copy.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/cucumber-html-0.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/cucumber-reporting-4.8.0.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/junit-4.13-beta-3.jar"/>
+	<classpathentry kind="lib" path="E:/May2020/cucumber jars/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

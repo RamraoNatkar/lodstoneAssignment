@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "find highest price",
+        "description": "",
+        "id": "get-highest-price;find-highest-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49506831100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to Ajio webpage",
+            "match": {
+              "location": "AjioSteps.user_navigate_to_Ajio_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on the Search text box",
+            "match": {
+              "location": "AjioSteps.click_on_the_Search_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3561464800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Type the value “Shoes”",
+            "match": {
+              "location": "AjioSteps.type_the_value_Shoes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9699948200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on the Search button",
+            "match": {
+              "location": "AjioSteps.click_on_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1927948900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get the first six items name,price and discounted price",
+            "match": {
+              "location": "AjioSteps.get_the_first_six_items_name_price_and_discounted_price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "print name,price and discounted price",
+            "match": {
+              "location": "AjioSteps.print_name_price_and_discounted_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207650000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "find highest price among six",
+            "match": {
+              "location": "AjioSteps.find_highest_price_among_six()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "print product name with highest price",
+            "match": {
+              "location": "AjioSteps.print_product_name_with_highest_price()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get highest price",
+    "description": "Description: get highest price among six searched products(shoes)",
+    "id": "get-highest-price",
+    "keyword": "Feature",
+    "uri": "Ajio.feature"
+  }
+]
